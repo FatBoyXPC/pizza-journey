@@ -1,6 +1,6 @@
 <?php
 
 return [
-    'baseUrl' => 'https://my-jigsaw-blog.com',
+    'baseUrl' => 'https://www.fatboyxpc.com/pizza-journey',
     'production' => true,
 ];
