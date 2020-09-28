@@ -6,7 +6,7 @@
 
 @section('body')
     @if ($page->cover_image)
-        <img src="{{ $page->cover_image }}" alt="{{ $page->title }} cover image" class="mb-2">
+        <img src="{{ $page->baseUrl . $page->cover_image }}" alt="{{ $page->title }} cover image" class="mb-2">
     @endif
 
     <h1 class="leading-none mb-2">{{ $page->title }}</h1>
@@ -16,7 +16,7 @@
     @if ($page->categories)
         @foreach ($page->categories as $i => $category)
             <a
-                href="{{ '/blog/categories/' . $category }}"
+                href="{{ $page->baseUrl . '/blog/categories/' . $category }}"
                 title="View posts in {{ $category }}"
                 class="inline-block bg-gray-300 hover:bg-blue-200 leading-loose tracking-wide text-gray-800 uppercase text-xs font-semibold rounded mr-4 px-3 pt-px"
             >{{ $category }}</a>
