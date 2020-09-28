@@ -24,4 +24,6 @@ jobs:
         git config --local user.name "GitHub Actions"
         git commit -m "Build for deploy"
     - name: Publish
-      run: git subtree push --prefix build_production origin gh-pages
+      run: |
+        git subtree split --prefix build_production -b gh-pages
+        git push -f origin gh-pages:gh-pages
