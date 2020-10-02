@@ -2,7 +2,7 @@
 extends: _layouts.post
 section: content
 title: Receiving My Ooni Fyra
-date: 2020-09-24
+date: 2020-09-25
 description: Receiving my Ooni Fyra pizza oven, setting it up, and doing the first cook(s)
 ---
 
@@ -55,7 +55,7 @@ finished burning and cooled down enough to handle the unit. I brought it back
 inside my covered patio and let it sleep for the night. This thing's about to
 get abused, I figure i can take it easy it's first time!
 
-### First _Real_ Cook
+### First _Real_ Cook {#first-real-cook}
 
 The next day I pulled the premade pizza dough out of the fridge, portioned it
 into two dough balls, and set it out. I've recently been using this to make
